@@ -1,7 +1,7 @@
 # Lagos Property Price Classification & Pricing Strategy
 
 ## Executive Summary
-This project builds an end-to-end machine learning pipeline to identify high-priced property listings in Lagos, Nigeria. Using 3,656 listings, three classification models were evaluated to predict whether a property sells above the median price (₦295 million). The final Random Forest Classifier achieved an F1-Score of 0.81 and an ROC-AUC of 0.90, helping agents and buyers quickly judge whether a listing is priced high or low for the market.
+This project builds an end-to-end machine learning pipeline to identify high-priced property listings in Lagos, Nigeria. Using 3,656 listings, three classification models were evaluated to predict whether a property sells above the median price (₦295 million). The final Random Forest Classifier achieved an F1-Score of 0.81 and an ROC-AUC of 0.90 helping agents and buyers quickly judge whether a listing is priced high or low for the market.
 
 ## Dataset
 - **Source:** Kaggle, "Lagos House Prices, Sales and Valuation Dataset" by ogwucheemmanueld. https://www.kaggle.com/datasets/ogwucheemmanueld/lagos-house-prices-sales-and-valuation-dataset
@@ -9,7 +9,7 @@ This project builds an end-to-end machine learning pipeline to identify high-pri
 - **Target:** `High_Price` = 1 if Price is above the median, else 0 (balanced: 1,830 vs 1,826)
 
 ## Key Insights & Visual Highlights
-- **Primary Price Drivers:** Number of bedrooms, the island-and-bedrooms interaction, and number of bathrooms are the top indicators of a high-priced listing.
+- **Primary Price Drivers:** Number of bedrooms, the island-and-bedrooms interaction and number of bathrooms are the top indicators of a high-priced listing.
 - **Model Comparison:** Random Forest narrowly outperformed Gradient Boosting and Logistic Regression.
 
 | Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
@@ -29,7 +29,7 @@ This project builds an end-to-end machine learning pipeline to identify high-pri
 ## How to Reproduce
 1. Clone repository: `git clone https://github.com/yourusername/lagos-property-capstone.git`
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run pipeline: `python notebooks/02_model_benchmarking.py`
+3. Run pipeline: `python notebooks/olamilekanoyewolefirstproject.ipy`
 
 ## Repository Structure
 ```text
