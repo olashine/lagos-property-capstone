@@ -38,7 +38,7 @@ lagos-property-capstone/
 │   ├── Lagos_houses_prices.csv        <- Raw input dataset
 │   └── cleaned_lagos_houses.csv       <- Preprocessed dataset
 ├── notebooks/
-│   └── 02_model_benchmarking.py       <- EDA, scaling, 3-model comparison, charts
+│   └── olamilekanoyewolefirstproject.ipy       <- EDA, scaling, 3-model comparison, charts
 ├── outputs/
 │   ├── eda_charts.png
 │   ├── roc_curve_comparison.png
